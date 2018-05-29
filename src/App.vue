@@ -1,6 +1,7 @@
 <template>
     <div>
       <h1 class="titre">Biographies d'aviateurs</h1>
+      <br>
       <p class="p1">Choisisez si dessous un aviateur : </p>
       <div class="align">
         <button class="but" v-on:click="component = 'page-wright'">Freres.         .     Wright</button>
@@ -39,7 +40,7 @@ export default {
     },
     data () {
         return {
-          component: 'page-wright',
+          component: '',
         }
     },
 }
